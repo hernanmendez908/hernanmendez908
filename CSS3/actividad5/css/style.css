@@ -1,0 +1,122 @@
+/*Importación del tipo de letra Roboto de Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+/*todos los elementos dentro del body heredan el tipo y tamaño de letra*/
+body{
+    background-color: rgb(171, 255, 227);
+  font-family: 'Roboto', sans-serif; /*Tipo del letra Roboto*/
+  font-size: 14px;
+}
+.enlace-blue{
+  text-decoration:none;
+  color: #ef1111;
+  margin: 8px;
+}
+.espacio{
+  padding-top: 10px;
+  padding-bottom: 24px;
+}
+.caja{
+  margin: 8px;
+  width:  64px;               /*ancho*/
+  height: 64px;              /*alto*/
+  background-color: #6d85ff; /*color de fondo*/
+  color:#fff
+  
+}
+.caja .tipo{
+  position: static;
+  left: 128px;
+}
+h1{
+  font-size: 30px;
+  text-align:center;
+}
+
+/*segunda pagina*/
+
+.caja_relative { 
+    margin: 12px;
+    background-color: #ffb171;
+    color: #fff;
+    width: 256px; /*ancho del elemento*/
+    height: 128px; /*alto del elemento*/
+  
+    position:relative; /*posicion relativa del elemento*/
+    left: 48px; /*se deplaza de izquierda a derecha 48px*/
+    top: 48px;  /*se deplaza de arriba a abajo 48px*/
+  }
+  .caja_relative2 { 
+    margin: 12px;
+    background-color: #ff9d4e;
+    color: #fff;
+    width: 256px; /*ancho del elemento*/
+    height: 128px; /*alto del elemento*/
+  
+    position:relative; /*posicion relativa del elemento*/
+    left: 48px; /*se deplaza de izquierda a derecha 48px*/
+    top: 48px;  /*se deplaza de arriba a abajo 48px*/
+  }
+  .caja_relative3 { 
+    margin: 12px;
+    background-color: #ff8724;
+    color: #fff;
+    width: 256px; /*ancho del elemento*/
+    height: 128px; /*alto del elemento*/
+  
+    position:relative; /*posicion relativa del elemento*/
+    left: 48px; /*se deplaza de izquierda a derecha 48px*/
+    top: 48px;  /*se deplaza de arriba a abajo 48px*/
+  }
+  .caja_relative4 { 
+    margin: 12px;
+    background-color: #ff7300;
+    color: #fff;
+    width: 256px; /*ancho del elemento*/
+    height: 128px; /*alto del elemento*/
+  
+    position:relative; /*posicion relativa del elemento*/
+    left: 48px; /*se deplaza de izquierda a derecha 48px*/
+    top: 48px;  /*se deplaza de arriba a abajo 48px*/
+  }
+  
+  /*Se aplica ancho al parrafo 1 y ancho y alto parrafo 2*/
+
+    .hijo_absolute1 { 
+      background-color: #fb4242;
+      color:black;
+      padding: 12px;
+      position:absolute; /*posicion absolute del elemento*/
+      left: 80px; /*se deplaza de izquierda a derecha 80px*/
+      }
+    .hijo_absolute2 { 
+      background-color: #f7ce37;
+      color:black;
+      padding:12px;
+      position:absolute; /*posicion absolute del elemento se sobrepone*/
+      left: 16px; /*se deplaza de izquierda a derecha 48px*/
+    }
+    
+    /*Se aplica ancho al parrafo 1 y ancho y alto parrafo 2*/
+.padre_relative { 
+    background-color: #a3f3f0;
+    color: #fff;
+    width: autopx; /*ancho del elemento*/
+    height: 128px; /*alto del elemento*/
+    position:relative; /*posicion relativa del elemento*/
+    left: 48px; /*se deplaza de izquierda a derecha 48px*/
+    top: 48px;  /*se deplaza de arriba a abajo 48px*/
+    }
+    .hijo_fixed { 
+      background-color: #ff7b7b;
+      color: #fff;
+      padding: 12px;
+      position:relative; /*posicion fija del elemento*/
+      left: 30px; /*se deplaza de izquierda a derecha 80px*/
+      }
+    .hijo_absolute { 
+      background-color: #fcc601;
+      color: #fff;
+      padding: 12px;
+      position:fixed; /*posicion absolute del elemento se sobrepone*/
+      left: 100px; /*se deplaza de izquierda a derecha 48px*/
+    }

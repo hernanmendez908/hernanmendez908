@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #b5f1f9;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+section{
+    width: 80%;
+    height: 100vh;
+    background-color:#71a3fe;
+    color: #fff;
+    margin:auto;
+    display: flex;
+    flex-direction:column;
+    /*flex-flow:row wrap*/
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+section article{
+    width: 80%;
+    height: 150px;
+    margin: 10px;
+    background-color:#062ecb;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    align-items:center;
+    text-align: center;
+}
+
+.item{
+    width: 31%;
+    height: 80%;
+    display: flex;
+    background-color:#dd80fc;
+    color: #fff;
+    margin: 5px;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}

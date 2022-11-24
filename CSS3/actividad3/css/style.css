@@ -1,0 +1,19 @@
+@import url("https://fonst.googleapis.com/css2?famyli=roboto&display=swap");
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color:beige;
+}
+h1{
+    background-color:rgb(211, 223, 233);
+}
+menu{
+    padding: 12px;
+}
+h2{
+    text-align: center;
+    background-color:rgb(211, 223, 233);
+}

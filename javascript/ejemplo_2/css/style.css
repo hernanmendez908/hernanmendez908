@@ -1,0 +1,30 @@
+body{
+    background-color:deepskyblue;
+    color:#fff;
+    font-family:Arial, Helvetica, sans-serif;
+}
+    
+h1{
+    background-color:khaki;
+    text-align: center;
+    padding: 12px;
+}
+
+a{
+    background-color:blue;
+    color:#fff;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 12;
+
+}
+
+div{
+    background-color: gold;
+    color: crimson;
+    padding: 12px;
+    border-radius: 12;
+}
+
+
+

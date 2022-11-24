@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+/*todos los elementos dentro del body heredan el tipo y tamaño de letra*/
+body{
+  background-color:rgb(177, 255, 255);
+  font-family: 'Roboto', sans-serif; /*Tipo del letra Roboto*/
+  font-size: 14px;
+}
+h1{
+  text-decoration:none;
+}
+.margen{
+  margin: 48px; /*margen para generar un espacios*/
+}
+.caja1{
+  width: 48px;               /*ancho*/
+  height: 32px;              /*alto*/
+  background-color: #FFF5F5; /*color de fondo*/
+  padding: 8px;              /*relleno interno general*/
+  margin-bottom: 8px;        /*margen externo inferior */
+}
+.caja2{
+  width: 64px;
+  height: 32px;
+  background-color: #FED7D7;
+  padding: 8px;
+  margin-bottom: 8px;
+}
+.caja3{
+  width: 80px;
+  height: 32px;
+  background-color: #FEB2B2;
+  padding: 8px;
+  margin-bottom: 8px;
+  
+}
+.caja4{
+    width: 96px;
+    height: 32px;
+    background-color: #FC8181;
+    padding: 8px;
+    margin-bottom: 8px;
+    
+  }
+  .caja5{
+    width: 112px;
+    height: 32px;
+    background-color: #F56565;
+    padding: 8px;
+    margin-bottom: 8px;
+    
+  }
+  .caja6{
+    width: 128px;
+    height: 32px;
+    background-color: #E53E3E;
+    padding: 8px;
+    margin-bottom: 8px;
+    
+  }.caja7{
+  width: 144px;
+  height: 32px;
+  background-color: #C53030;
+  padding: 8px;
+  margin-bottom: 8px;
+  
+}
+.caja8{
+    width: 160px;
+    height: 32px;
+    background-color: #9B2C2C;
+    padding: 8px;
+    margin-bottom: 8px;
+    
+  }
+  .caja9{
+    width: 176px;
+    height: 32px;
+    background-color: #742A2A;
+    padding: 8px;
+    margin-bottom: 8px;
+    
+  }
+.box1{
+  width: 80px;
+  height: 32px;
+  background-color: #F7FAFC;
+  padding: 8px;
+  border-radius: 6px; /*esquinas redondas*/
+  margin-bottom: 8px;
+  margin-left: 8px;   /*margen exterior izquierdo*/
+}
+.box2{
+  width: 80px;
+  height: 32px;
+  background-color: #edf2f7;
+  padding: 8px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  margin-left: 16px;
+}
+.box3{
+  width: 80px;
+  height: 32px;
+  background-color: #e2e9f0;
+  padding: 8px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  margin-left: 24px;
+}
+.box4{
+    width: 80px;
+    height: 32px;
+    background-color: #CBD5E0;
+    padding: 8px;
+    border-radius: 6px;
+    margin-bottom: 8px;
+    margin-left: 32px;
+  }
+  .box5{
+    width: 80px;
+    height: 32px;
+    background-color: #A0AEC0;
+    padding: 8px;
+    border-radius: 6px;
+    margin-bottom: 8px;
+    margin-left: 40px;
+  }
+  .box6{
+    width: 80px;
+    height: 32px;
+    background-color: #718096;
+    padding: 8px;
+    border-radius: 6px;
+    margin-bottom: 8px;
+    margin-left: 48px;
+  }
+  .box7{
+    width: 80px;
+    height: 32px;
+    background-color: #4A5568;
+    padding: 8px;
+    border-radius: 6px;
+    margin-bottom: 8px;
+    margin-left: 56px;
+  }
+  .box8{
+    width: 80px;
+    height: 32px;
+    background-color: #2D3748;
+    padding: 8px;
+    border-radius: 6px;
+    margin-bottom: 8px;
+    margin-left: 64px;
+  }
+  .box9{
+    width: 80px;
+    height: 32px;
+    background-color: #1A202C;
+    padding: 8px;
+    border-radius: 6px;
+    margin-bottom: 8px;
+    margin-left: 72px;
+  }
+.contenedor1{
+  width: 176px;
+  height: 176px;
+  background-color: #742A2A;
+  padding: 12px;
+  border-radius: 6px;
+  /*centra el elemento vertical y horizontalmente*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contenedor2{
+  width: 160px;
+  height: 160px;
+  background-color: #9C4221;
+  padding: 12px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contenedor3{
+  width: 144px;
+  height: 144px;
+  background-color: #C05621;
+  padding: 12px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contenedor4{
+    width: 128px;
+    height: 128px;
+    background-color: #DD6B20;
+    padding: 12px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contenedor5{
+    width: 112px;
+    height: 112px;
+    background-color: #ED8936;
+    padding: 12px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contenedor6{
+    width: 96px;
+    height: 96px;
+    background-color: #F6AD55;
+    padding: 12px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contenedor7{
+    width: 80px;
+    height: 80px;
+    background-color: #FBD38D;
+    padding: 12px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contenedor8{
+    width: 64px;
+    height: 64px;
+    background-color: #FEEBC8;
+    padding: 12px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contenedor9{
+    width: 48px;
+    height: 48px;
+    background-color: #FFFAF0;
+    padding: 12px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+
+
+
+  

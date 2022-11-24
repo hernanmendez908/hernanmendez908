@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #b5f1f9;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+section{
+    width: 80%;
+    height: 100vh;
+    background-color:#71a3fe;
+    margin: auto;
+    display: flex;/*activa las propiedades flexbox*/
+    flex-direction:row;/*direccion de los items*/
+    flex-wrap: wrap;/*evita el desbordamiento*/
+    justify-content: center;/*alineacion eje principal*/
+    align-items:center;/*alineacion eje secundario*/
+}
+section article{
+    width: 100px;
+    height: 100px;
+    background-color: #3d5fae;
+    color: #fff;
+    margin: 10px;
+    text-align: center;
+}
