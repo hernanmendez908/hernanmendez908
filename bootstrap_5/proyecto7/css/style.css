@@ -1,0 +1,56 @@
+.banner-image {
+    background-image: url('../img/m5.jpg');
+    background-size: cover;
+}
+/*section de contactos*/
+section.contactos-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 110px 100px;
+    color: #fff;
+    background-color: #000;
+}
+.contactos-area .section-title{
+    text-transform: uppercase;
+    font-size: 50px;
+    margin-bottom: 5%;
+    text-align: center;
+}
+.contactos-area .section-title span{
+    color: #9F2A2A;
+}
+ul.contactos-content{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.contactos-content li{
+    padding: 0 30px;
+    flex-basis: 33%;
+    text-align: center;
+    list-style: none;
+}
+.contactos-content li i{
+    font-size: 50px;
+    color:#9F2A2A;
+    margin-bottom: 25px;
+}
+.contactos-content li p{
+    margin: 0;
+}
+/*footer*/
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+    padding: 60px 0;
+}
+body{
+    background-color: rgb(174, 235, 235);
+}
+
